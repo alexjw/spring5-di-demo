@@ -16,7 +16,7 @@ public class DiDemoApplication {
 
 		MyController controller = (MyController) run.getBean("myController");
 
-		controller.hello();
+		System.out.println(controller.hello());
 
 		System.out.println(run.getBean(PropertyInjectedController.class).sayHello());
 		System.out.println(run.getBean(SetterInjectedController.class).sayHello());
