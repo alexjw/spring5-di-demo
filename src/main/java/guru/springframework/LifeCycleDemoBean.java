@@ -12,7 +12,7 @@ import javax.annotation.PreDestroy;
 /**
  * Created by jt on 6/5/17.
  */
-@Component
+//@Component Si no es component no se carga al context y no jode las bolas
 public class LifeCycleDemoBean implements InitializingBean, DisposableBean, BeanNameAware,
         BeanFactoryAware, ApplicationContextAware{
 
